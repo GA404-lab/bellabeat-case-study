@@ -107,7 +107,7 @@ Inactive(sedentary) time was excluded in figure 2.
 The majority (85%) of activity is light activity, followed by very active (9%) and lastly, fairly active (6%).This indicates sedentary behavior dominates daily time, with light activity dominating non-sedentary activity.
 
 
-Average awake time in bed was 39.3 minutes. This statistic is inline with other reports from different datasets, reaffirming validity and confidence in the quality of our data. Additionally, external research states the quality of sleep is negatively correlated with awake time in bed.This suggests higher awake-in-bed time is associated with poorer sleep quality, indicating an opportunity for Bellabeat to focus on sleep efficiency rather than duration.
+Average awake time in bed was 39.3 minutes. This statistic is inline with other reports from different datasets, reaffirming validity and confidence in the quality of our data.<sup>[[1](https://www.whoop.com/us/en/thelocker/average-sleep-stages-time/)]</sup> Additionally, external research states the quality of sleep is negatively correlated with awake time in bed.<sup>[[2](https://www.semanticscholar.org/paper/Is-insomnia-disorder-associated-with-time-in-bed-Birling-Li/b9c25b4e035faedf4c018897ffd8203f7207a505)]</sup> This suggests higher awake-in-bed time is associated with poorer sleep quality, indicating an opportunity for Bellabeat to focus on sleep efficiency rather than duration.
 
 
 Inactive(Sedentary) time is negatively correlated with total sleep time as seen in figure 3.
@@ -373,3 +373,8 @@ ActivityCalories <- Activity %>%
 write.csv(ActivityCalories, "ActivityCalories.csv", row.names = FALSE)
 ```
 
+---
+#### Footnotes
+[1] Source: https://www.whoop.com/us/en/thelocker/average-sleep-stages-time/
+
+[2] Source: https://www.semanticscholar.org/paper/Is-insomnia-disorder-associated-with-time-in-bed-Birling-Li/b9c25b4e035faedf4c018897ffd8203f7207a505
