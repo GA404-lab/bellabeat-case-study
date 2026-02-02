@@ -34,14 +34,14 @@ License: [CC0: Public Domain](https://creativecommons.org/publicdomain/zero/1.0/
 
 Limitations include:
 
-Small sample consisting of 30 participants.
-Old data recorded in 2016.
-Potential bias as it includes users who consented which may not be representative of the entire population.
+- Small sample consisting of 30 participants.
+- Old data recorded in 2016.
+- Potential bias as it includes users who consented which may not be representative of the entire population.
 
 The data is organized into the folder "FitbitFitnessTrackerData_Mobius" which is stored inside another folder "Project1_non-BellabeatData".
 The files and folders are stored locally on my computer.
 
-The dataset consists of multiple CSV files totaling ~588 MB with some tables consisting of over 1 million rows. For these reasons Rstudio is the program of my choice for analysis.
+The dataset consists of multiple CSV files totaling ~588 MB with some tables consisting of over 1 million rows. For these reasons, Rstudio is the program of my choice for analysis.
 
 ## Process
 
@@ -94,7 +94,7 @@ Figure 1 shows the distribution of daily activity by intensity.
 <p align="center"><img width="1216" height="734" alt="Distribution of Daily Activity by Intensity (4)" src="https://github.com/user-attachments/assets/be8d2e00-35cb-404e-bcc0-8327df877225" /></p>
 <p align="center"><em>Figure 1: Distribution of Daily Activity by Intensity</em></p>
 
-Participants of the survey spent 81% of the time sedentary, 16% lightly active, 2% very active, and 1% spent fairly active. 
+Participants of the survey spent 81% of their time sedentary, 16% lightly active, 2% very active, and 1% spent fairly active. 
 
 Inactive(sedentary) time was excluded in figure 2.
 <p align="center">
@@ -104,7 +104,7 @@ Inactive(sedentary) time was excluded in figure 2.
 
 <p align="center"><em>Figure 2: Distribution of Non-Sedentary Daily Activity</em></p>
 
-The majority (85%) of activity is light activity, followed by very active (9%) and lastly, fairly active (6%).This indicates sedentary behavior dominates daily time, with light activity dominating non-sedentary activity.
+The majority (85%) of activity is light activity, followed by very active (9%) and lastly, fairly active (6%). This indicates sedentary behavior dominates daily time, with light activity dominating non-sedentary activity.
 
 
 Average awake time in bed was 39.3 minutes. This statistic is inline with other reports from different datasets, reaffirming validity and confidence in the quality of our data.<sup>[[1](https://www.whoop.com/us/en/thelocker/average-sleep-stages-time/)]</sup> Additionally, external research states the quality of sleep is negatively correlated with awake time in bed.<sup>[[2](https://www.semanticscholar.org/paper/Is-insomnia-disorder-associated-with-time-in-bed-Birling-Li/b9c25b4e035faedf4c018897ffd8203f7207a505)]</sup> This suggests higher awake-in-bed time is associated with poorer sleep quality, indicating an opportunity for Bellabeat to focus on sleep efficiency rather than duration.
@@ -123,23 +123,25 @@ Figure 4 displays non-sedentary activity against calories burnt.
 <p align="center"><img width="700" height="734" alt="Non-Sedentary Activity vs  Calories Burnt" src="https://github.com/user-attachments/assets/d8d4c3ad-dec6-4e5a-a34a-6729b292c898" /></p>
 <p align="center"><em>Figure 4: Non-Sedentary Activity vs. Calories Burnt</em></p>
 
-Non-sedentary activity is associated with more calories burnt, additionally, the intensity of activity differs in efficiency concerning calorie burning.Very active intensity had a 0.6 correlation, fairly active intensity had a 0.3 correlation and lightly active intensity had a 0.29 correlation. Light activity is almost just as efficient at calorie burning as fairly active, however, light activity dominates the total distribution of daily non-sedentary activity. This suggests consistent light activity is the main driver of calories burnt.
+Non-sedentary activity is associated with more calories burnt, additionally, the intensity of activity differs in efficiency concerning calorie burning. Very active intensity had a 0.6 correlation, fairly active intensity had a 0.3 correlation and lightly active intensity had a 0.29 correlation. Light activity is almost just as efficient at calorie burning as fairly active, however, light activity dominates the total distribution of daily non-sedentary activity. This suggests consistent light activity is the main driver of calories burnt.
 
 ## Share
 Tableau was utilized to create and export the visualization for this case study.
-The most relevant insights from this dataset were:
-Sedentary behavior is negatively associated with total time asleep.
-Consistent light activity accounted for the majority of calories burnt.
-People spend most time in their day being sedentary.
+These are the most relevant insights from this dataset:
+
+1. Sedentary behavior is negatively associated with total time asleep.
+2. Consistent light activity accounted for the majority of calories burnt.
+3. People spend most time in their day being sedentary.
 
 These insights were communicated using the following visuals:
-Distribution of Daily Activity by Intensity: 
+
+- Distribution of Daily Activity by Intensity: 
 Showcases sedentary time being the bulk of daily activity.
 
-Distribution of Non-Sedentary Daily Activity: 
+- Distribution of Non-Sedentary Daily Activity: 
 Showcases light activity being the majority of non-sedentary activity.
 
-Sedentary time vs. Total Sleep:
+- Sedentary time vs. Total Sleep:
 Showcases the negative correlation between daily sedentary time and total sleep.
 
 Non-Sedentary Activity vs. Calories Burnt:
